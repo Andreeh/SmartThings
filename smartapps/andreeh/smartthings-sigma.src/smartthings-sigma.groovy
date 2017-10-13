@@ -11,7 +11,6 @@
  *  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
- *
  */
 
 include 'asynchttp_v1'
@@ -34,7 +33,7 @@ preferences {
 
 def version() { return "1.0" }
 //def url() { return "http://smarthingsintegration.azurewebsites.net/api/SmartThings" }
-def url() { return "https://requestb.in/19s374f1" }
+def url() { return "https://requestb.in/uzs5xfuz" }
 
 def mainPage() {
 	dynamicPage(name:"mainPage", uninstall:true, install:true) {
